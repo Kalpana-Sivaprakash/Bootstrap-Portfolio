@@ -6,32 +6,214 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Template</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- bootstrap core css reference -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+    crossorigin="anonymous">
 
+    <script src="https://kit.fontawesome.com/551fac5adf.js" crossorigin="anonymous"></script>
+
+    <!-- custom style for this template -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <section>
+      <!-- navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Welcome<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#work">Work</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="#Skills">Skills</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#AboutMe">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                  </li>
                
               </ul>
             
             </div>
+        </div>
           </nav>
+
+    <!--Welcome Section: Jumbotron Header full width-->         
+
+    <header class="jumbotron jumbotron-fluid bg-secondary">
+        <div class="container">
+            <div class="col-lg-11 mx-auto text-white">
+                <h1 class="display-4">Welcome to My Portfolio</h1>
+                <p class="lead">
+                  I'm a junior Web developer with good knowledge of front end techniques and passionate about creating interactive applications. From Non-IT background to code on a web page, I love the structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also i like working in a team, would learn faster and much more.
+                    
+                    </p><a href="#" class="btn btn-primary btn-lg">Call to action</a>
+
+            </div>
+        </div>
+    </header>
+    <!--Work Section-->
+
+    <!--My Work-->
+<section class="container" id="work">
+    <div class="row d-flex justify-content-around mt-8">
+        <h1 class="my-4">My Work</h1>
+    </div>
+
+    <div class="row justify-content-between text-center mt-8">
+      <p class="jumbotron"> Currently I'm a learner in bootcamp course and learning the front end technolgies such as HTML5, CSS, Javascript and React.js 
+        to make interactive and user-friendly web applications with resposive designs. Following are the few responsive designs placed 
+        in my github. </p>
+    </div>
+    <div class="row justify-content-between text-center mt-8">
+      <!-- project-1 -->
+      <div class="col-lg-5 mx-auto mb-4">
+        <div class="card">
+          <img src="images/keyboard-black.png" alt="keyboard-work" class="card-img-top">
+          <div class="card-body">
+            <h4>Pre-work study guide</h4>
+            <p class="card-text"> This Prework Study Guide was created for boot camp students who were going through the Prework. 
+              It contains notes on HTML, CSS, Git, and JavaScript.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Kalpana-Sivaprakash/prework-study-guide" class="btn btn-primary" target="_blank">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- project-2 -->
+      <div class="col-lg-5 mx-auto mb-4">
+        <div class="card">
+          <img src="images/computer-macro-light.jpg" alt="keyboard-macro" class="card-img-top">
+          <div class="card-body">
+            <h4>Horiseon</h4>
+            <p class="card-text"> This page is responsive by refactoring the code. 
+              It is made with HTML and CSS to give the page more responsive to the users even if it is viewed from different size of screen. 
+              This page is designed with semantic HTML elements for structuring.
+              Have used the overflow attribute in CSS to make the respective section responsive. 
+              Have used the max-width attribute to show the image as more responsive.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Kalpana-Sivaprakash/Horiseon" target="_blank" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+        
+      <!-- project-3 -->
+      <div class="col-lg-5 mx-auto mb-4">
+        <div class="card">
+          <img src="images/keyboard-working.jpeg" alt="keyboard-working" class="card-img-top">
+          <div class="card-body">
+            <h4>Portfolio</h4>
+            <p class="card-text"> 
+              This is Portfolio website creation with the basic HTML and CSS. Have used media queries to set the screen or web page as responsive.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Kalpana-Sivaprakash/Portfolio" target="_blank" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+       
+      <!-- project-4 -->
+      <div class="col-lg-5 mx-auto mb-4">
+        <div class="card">
+          <img  class="card-img-top" src="images/kbd-coding.jpg" alt="keyboard-coding" >
+          <div class="card-body">
+            <h4>Bootstrap-portfolio</h4>
+            <p class="card-text"> 
+              This is responsive portfolio website creation with the HTML, CSS and Bootstrap. 
+              Bootstrap framework has been used to minimise the css and media queries code to make the responsive web pages.
+            </p>
+            </div>
+          <div class="card-footer">
+            <a href="https://github.com/Kalpana-Sivaprakash/Bootstrap-Portfolio"  target="_blank" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+
+</section>
+
+<!-- Skills section -->
+<section class="container" id="Skills">
+  <div class="row d-flex justify-content-around mt-8">
+      <h1 class="my-4">Skills</h1>
+  </div>
+  <div class="row justify-content-between text-center mt-8">
+    <p class="jumbotron"> Would like to learn advanced responsive web designing with HTML, advanced CSS, Bootstrap, Javascript and React.js</p>
+  </div>
+</section>
+
+<!--AboutMe section-->
+    <section id="AboutMe">
+      <div class="container bg-secondary">
+        <div class="row-align-items-center">
+          <div class="col-sm-3 order-lg-2">
+            <img class="img-fluid rounded-circle" src="images/k.jpg" alt="K - developer" >
+          </div>
+        
+          <div class="col-md order-lg-7 text-white">
+            <div class="p-5">
+              <h2 class="display-4">About me!</h2>
+              <p class="card-text"> 
+                
+                    I've always been drawn to both the creative and analytical side of development, I'm so thankful to be able to do both with the foundation I built during bootcamp.
+                    <br>
+                    <br>
+                  I'm excited to make the leap and continue refining my skills with the right company. I'm now looking for a junior dev position to finally kick start my career and learn among professionals.
+                
+                </p>
+                <a href="#" class="btn btn-outline-light">
+                <i class="fa-solid  fa-download"></i>
+                Download my resume
+              </a>
+            </div>
+        </div>
+      </div>
+      </div>
+
     </section>
+
+    <!--footer and Contact section-->
+<footer class="footer bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 h-100 text-center mx-auto" id="Contact">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item mr-3">
+            <a href="https://www.linkedin.com/in/kalpana-rajasekaran/" target="_blank">
+              <i class="fab fa-linkedin fa-3x fa-fw"></i> 
+            </a>
+          </li>
+          <li class="list-inline-item mr-3">
+            <a href="https://github.com/Kalpana-Sivaprakash" target="_blank">
+              <i class="fab fa-github fa-3x fa-fw"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-4 mb-lg-0">
+&copy; My portfolio 2023. coded by Kalpana
+        </p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+</section>
     
 </body>
 </html>
