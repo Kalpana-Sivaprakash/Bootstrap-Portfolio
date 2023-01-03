@@ -8,8 +8,10 @@ With this framework, personalised media queries has been avoided since bootstrap
 
 # Deployed Link:
 
-# Repository Link:
+https://kalpana-sivaprakash.github.io/Bootstrap-Portfolio/
 
+# Repository Link:
+https://github.com/Kalpana-Sivaprakash/Bootstrap-Portfolio
 
 ## Installation
 N/A
